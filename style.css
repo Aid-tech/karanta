@@ -1,0 +1,30 @@
+#accueil{
+    background: url("img/montagne.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 555px;
+}
+
+#accueil_block{
+    background: rgba(33, 33, 148, 0.26);
+}
+#accueil_back{
+    background: url("img/welcome.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#auteur img{
+    margin-top: -70px;
+}
+.card:hover{
+    background: #0A6EFD;
+    color: white !important;
+}
+
+.text-gris{
+    color: rgb(39, 38, 38);
+}
+
+.fw-bold{
+    font-size: 6em !important;
+}

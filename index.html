@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+	<title>Karanta</title>
+</head>
+
+<body class="text-light p-0 m-0">
+	<div class="container-fluid">
+		<div>
+			<nav class="navbar fixed-top navbar-expand-lg nnavbar-light bg-light border-bottom border-primary border-3">
+				<div class="container">
+					<a class="navbar-brand text-dark" href="#"><span
+							class="bg-primary pt-1 pb-1 pe-2 ps-2 rounded-circle">K</span>aranta</a>
+					<button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon link-light"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link link-dark" aria-current="page" href="#">Accueil</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-dark" href="#apropos">A propos</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-dark" href="#auteur">Les auteurs</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link link-dark" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<section>
+			<div class="row pt-5" id="accueil">
+				<div class="py-5" id="accueil_block">
+					<div class="container">
+            <div class="row">
+              <div class="col-lg-4 offset-lg-2">
+                <h1>Lire et Ecrire, <br>Compter,<br>Coder...</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <button class="btn btn-outline-light">Voir plus</button>
+              </div>
+              <div class="col-lg-4 .d-none .d-sm-block" id="accueil_back"></div>
+            </div>
+          </div>
+				</div>
+      </div>
+		</section>
+		<section>
+			<div class="row pt-3 pb-2 bg-secondary" id="contact_block">
+				<div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-4 mb-2">
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Enter votre Nom">
+                </div>
+              </div>
+              <div class="col-lg-4 mb-2">
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Enter votre Email">
+                </div>
+              </div>
+              <div class="d-grid gap-2 col-lg-4">
+                <button class="btn btn-primary"><i class="fa-solid fa-envelope-open"></i> Soumettre</button>
+              </div>
+            </div>
+          </div>
+        </div>
+			</div>
+		</section>
+		<section id="apropos">
+			<div class="row pt-5 pb-5" id="apropos_block">
+				<div>
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-lg-3">
+                <div class="card border-primary mb-2">
+                  <div class="card-body">
+                    <h1 class="text-primary">Be Better</h1>
+                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="card bg-primary mb-2">
+                  <div class="card-body">
+                    <h1>Be Smarter</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="card border-primary mb-2">
+                  <div class="card-body">
+                    <h1 class="text-primary">Be Faster</h1>
+                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="card bg-primary mb-2">
+                  <div class="card-body">
+                    <h1>Be Stronger</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus nemo</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+			</div>
+		</section>
+		<section id="livre">
+			<div class="row pt-3 pb-3 bg-secondary">
+				<div class="justify-content-center">
+					<div class="container">
+            <div class="row text-center">
+              <div class="col-lg-4 offset-lg-4">
+                <h1>Pourquoi ce Livre</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error incidunt sapiente, laudantium mollitia dolor vel?</p>
+                <hr>
+              </div>
+            </div>
+          </div>
+				</div>
+				<div class="row">
+					<div class="justify-content-center">
+						<div class="container">
+              <div class="row">
+                <div class="accordion text-center" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fa-solid fa-circle-down pe-2"></i> Inspiration
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut in optio suscipit.
+                          Dolorum, nulla? Porro quaerat omnis autem illum possimus, eius, architecto placeat sapiente
+                          reprehenderit nobis ipsa sequi suscipit id?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fa-solid fa-circle-down pe-2"></i> Savoir
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nihil deleniti
+                          assumenda deserunt dolorum, neque quibusdam numquam quae dignissimos consectetur ducimus
+                          repudiandae repellat dolores doloribus magnam voluptatibus, recusandae laborum necessitatibus.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fa-solid fa-circle-down pe-2"></i> Opportunité
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima reiciendis ex
+                          recusandae, beatae magni culpa labore veritatis, tempore ipsum, nam assumenda officiis voluptates
+                          iste unde ducimus debitis ad repellat excepturi!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="auteur">
+			<div class="justify-content-center pt-4">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-4 offset-lg-4">
+              <h1 class="text-primary">Les auteurs</h1>
+					    <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet
+						consectetur.</p>
+              <hr>
+            </div>
+          </div>
+        </div>
+			</div>
+			<div class="row">
+				<div class="pt-4 pb-4">
+					<div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-sm-12">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img class="rounded-circle" src="img/user1.png" alt="auteur" width=100>
+                    <h4 class="card-title text-gris">Rachida Zakou</h4>
+                    <h6 class="card-title text-secondary">Lead Edicatrice</h6>
+                    <p class="card-text text-gris">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aut est
+                      quaerat corrupti ea voluptatibus nisi in odit ipsa ?</p>
+                  </div>
+                  <div class="card-footer text-muted">
+                    <div class="row text-primary">
+                      <div class="col"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                      <div class="col"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+                      <div class="col"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img class="rounded-circle mt-n5" src="img/user2.jpeg" alt="auteur" width=100>
+                    <h4 class="card-title text-gris">Mamane Sani</h4>
+                    <h6 class="card-title text-secondary">Co-Ecrivain</h6>
+                    <p class="card-text text-gris">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aut est
+                      quaerat corrupti ea voluptatibus nisi in odit ipsa ?</p>
+                  </div>
+                  <div class="card-footer text-muted">
+                    <div class="row text-primary">
+                      <div class="col"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                      <div class="col"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+                      <div class="col"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img class="rounded-circle" src="img/user3.jpeg" alt="auteur" width=100>
+                    <h4 class="card-title text-gris">Yasmine Abani</h4>
+                    <h6 class="card-title text-secondary">Edicatrice</h6>
+                    <p class="card-text text-gris">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aut est
+                      quaerat corrupti ea voluptatibus nisi in odit ipsa ?</p>
+                  </div>
+                  <div class="card-footer text-muted">
+                    <div class="row text-primary">
+                      <div class="col"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                      <div class="col"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+                      <div class="col"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <div class="card text-center">
+                  <div class="card-body">
+                    <img class="rounded-circle" src="img/user4.png" alt="auteur" width=100>
+                    <h4 class="card-title text-gris">Charif Ahmed</h4>
+                    <h6 class="card-title text-secondary">Designer</h6>
+                    <p class="card-text text-gris">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aut est
+                      quaerat corrupti ea voluptatibus nisi in odit ipsa ?</p>
+                  </div>
+                  <div class="card-footer text-muted">
+                    <div class="row text-primary">
+                      <div class="col"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></div>
+                      <div class="col"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+                      <div class="col"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="row py-4 bg-light">
+				<div class="">
+					<div class="container">
+						<div class="row">
+              <h1 class="text-dark">Nous écrire</h1>
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              <div class="col-lg-6">
+                <div class="input-group mb-3">
+                  <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+                  <input type="text" class="form-control" placeholder="Nom">
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text"><i class="fa-solid fa-pencil"></i></span>
+                  <textarea name="" id="" rows="5" class="form-control"></textarea>
+                </div>
+                <button class="btn btn-primary col-12" type="button">Envoyer</button>
+                
+              </div>
+              <div class="col-lg-2">
+                <h1 class="bg-primary pt-3 pb-4 text-center rounded-circle text-secondary fs-1 fw-bold">K</h1>
+              </div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="row text- justify-content-center bg-primary pt-4 pb-4">
+				<div class="col-md-7 text-end">
+					<p>Copyright 2022 &copy; Karanta 2022</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
